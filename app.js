@@ -42,4 +42,4 @@ http.createServer(function(req, res) {
 			res.end('404 - Page Not Found');
 		}
 	});
-}).listen(3000);
+}).listen(process.env.PORT || 3000);
