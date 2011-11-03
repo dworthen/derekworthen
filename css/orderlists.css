@@ -1,0 +1,202 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	}
+
+img {
+	border: none;
+	}
+	
+.menulist {
+	width: auto;
+	margin: 0px;
+	}
+	
+.menulist li a {
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+	text-decoration: none;
+	display:block;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-left:0px;
+	margin-bottom:15px;
+	background-repeat:no-repeat;
+	background-position:left top;
+	}	
+	
+.menulist li a:link, #menulist li a:visited {
+	background-position:left top;
+	padding-right:0px;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-left:0px;
+	margin-bottom:15px;
+	
+	}
+	
+.menulist li a:hover {
+	padding-right:0px;
+	width:auto;
+	background-repeat:no-repeat;
+	background-position:left top;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin-bottom:15px;
+	text-decoration:underline;
+	
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+.catlist {
+	width: auto;
+	margin:0px;
+	}
+	
+.catlist li a {
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+	text-decoration: none;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-left:15px;
+	margin-bottom:5px;
+	background-image:url(../images/icons/slash.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+	
+	}	
+	
+.catlist li a:link, #catlist li a:visited {
+	background-image:url(../images/icons/slash.png);
+	background-position:center left;
+	background-repeat:no-repeat;
+	padding-right:5px;
+	padding-bottom:0px;
+	padding-top:0px;
+	padding-left:15px;
+	margin-bottom:5px;
+	}
+	
+.catlist li a:hover {
+	padding-right:5px;
+	width:auto;
+	padding-bottom:0px;
+	padding-top:0px;
+	margin-bottom:5px;
+	text-decoration:underline;
+	
+	}
+	
+		
+/*ordered lists and other lists*/
+
+
+.orderedlistthird ul {
+	list-style: none;
+	margin: 10px 0 0px 0;
+	padding: 0;
+	}
+
+.orderedlistthird {
+	width: 290px;
+	margin: 0px;
+	border-size: 0px;
+	float: left;
+	background-color: transparent;
+	padding: 10px;
+	}
+	
+.orderedlistthird li a {
+	height: 32px;
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	height: 24px;
+	text-decoration: none;
+	font-style:normal;
+	margin-top:0px;
+	margin-bottom:0px;
+	border-bottom:1px dashed #999;
+	}	
+	
+.orderedlistthird li a:link, .orderedlist li a:visited {
+	color:#666;
+	display: block;
+	background:  url(../images/orderedlist.png);
+	background-repeat:no-repeat;
+	padding: 2px 0 0 30px;
+	}
+	
+.orderedlistthird li a:hover {
+	color:#333;
+	background:  url(../images/orderedlist.png) 0 -32px;
+	background-repeat:no-repeat;
+	padding: 2px 0 0 35px;
+	border-bottom:1px dashed #999;
+	
+	
+	}
+	
+	
+	
+
+.orderedlist ul {
+	list-style: none;
+	margin: 15px 0 0px 0;
+	padding: 0;
+	}
+
+.orderedlist {
+	width: 215px;
+	margin: 0px;
+	border-size: 0px;
+	float: left;
+	background-color: transparent;
+	padding: 10px;
+	}
+	
+.orderedlist li a {
+	height: 32px;
+  	voice-family: "\"}\""; 
+  	voice-family: inherit;
+  	height: 24px;
+	text-decoration: none;
+	font-style:normal;
+	margin-top:5px;
+	margin-bottom:5px;
+	}	
+	
+.orderedlist li a:link, .orderedlist li a:visited {
+	color:#666;
+	display: block;
+	background:  url(../images/orderedlist.png);
+	background-repeat:no-repeat;
+	padding: 2px 0 0 30px;
+	}
+	
+.orderedlist li a:hover {
+	color:#333;
+	background:  url(../images/orderedlist.png) 0 -32px;
+	background-repeat:no-repeat;
+	padding: 2px 0 0 35px;
+	
+	
+	}

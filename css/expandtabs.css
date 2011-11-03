@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+.expand a {
+  border-style:0px;
+  display:block;
+  background-image:url(../images/button/expandbg.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+  
+  width:960px;
+  height:20px;
+  
+ 
+  
+
+}
+.expand a:link, .expand a:visited {
+  border-width:0px;
+  background-image:url(../images/button/expandbg.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+.expand a:hover, .expand a:active, .expand a:focus {
+  text-decoration:none;
+}
+
+
+
+.expand a.open:link, .expand a.open:visited {
+  border-style:0px;
+  background-image:url(../images/button/expandbgclose.png);
+  background-repeat:no-repeat;
+  background-position:center center;
+}
+
+
+
+
+.collapse p {padding:0 10px 1em}
+#switch, .switch {margin-bottom:5px; text-align:right}
+
+.collapse {
+	float: left;
+	width: 100%;
+	
+}
+
+.expander {
+	float: left;
+	width: 100%;
+}
+
+
