@@ -25,6 +25,7 @@
     <link href='http://fonts.googleapis.com/css?family=Metrophobic' rel='stylesheet' type='text/css'/> 
     <link href='http://fonts.googleapis.com/css?family=Brawler' rel='stylesheet' type='text/css'/> 
     <link href='http://fonts.googleapis.com/css?family=Lobster+Two' rel='stylesheet' type='text/css'/> 
+    <link rel="stylesheet" href="./css/jquery.lightbox-0.5.css" type="text/css" /> 
 <!--end fonts--> 
  
  
@@ -44,6 +45,12 @@
     <script type="text/javascript" src="js/backtotop.js"></script> 
     <script type="text/javascript" src="js/jquery.carouFredSel-2.5.5-packed.js"></script> 
 	<script type="text/javascript" src="js/mosaic.1.0.1.min.js"></script> 
+  <script type="text/javascript" src="./js/jquery.lightbox-0.5.min.js"></script> 
+  <script type="text/javascript"> 
+  $(function() { 
+    $('a.lightbox').lightBox(); // Select all links with lightbox class 
+  }); 
+  </script> 
 <!-- /JAVASCRIPTS --> 
  
   
@@ -151,8 +158,8 @@
         <div class="onehalf">
          
         <div class="mosaic-block-third info">
-		<a href="#" class="mosaic-overlay"></a>
-		<div class="mosaic-backdrop"><img src="http://flickholdr.com/290/150" alt="" class="imgstyle"/>
+		<a href="./images/improve.jpg" class="mosaic-overlay lightbox"></a>
+		<div class="mosaic-backdrop"><img src="./images/improve-thumb.jpg" alt="" class="imgstyle"/>
         </div><!--END OVERLAY MOSAIC-->
 		</div><!--END MOSAIC-->       
          
@@ -162,8 +169,8 @@
         <div class="onehalf">
          
         <div class="mosaic-block-third info">
-		<a href="#" class="mosaic-overlay"></a>
-		<div class="mosaic-backdrop"><img src="http://flickholdr.com/290/150/sport" alt="" class="imgstyle"/>
+		<a href="./images/math-background.jpg" class="mosaic-overlay lightbox"></a>
+		<div class="mosaic-backdrop"><img src="./images/math-background-thumb.jpg" alt="" class="imgstyle"/>
         </div><!--END OVERLAY MOSAIC-->
 		</div><!--END MOSAIC-->       
          
