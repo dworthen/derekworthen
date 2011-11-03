@@ -22,6 +22,9 @@ http.createServer(function(req, res) {
 		case '.css' :
 			contentType = 'text/css';
 		break;
+    case '.jpg' :
+      contentType = 'image/jpeg';
+    break;
 		default:
 			contentType = 'text/html';
 	}
