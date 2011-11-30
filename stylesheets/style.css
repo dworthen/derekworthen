@@ -20,6 +20,13 @@ h3 {
   border-bottom: 1px solid black;
   padding-bottom: .14em;
   margin-bottom: .5em;
+  margin-top: 1em;
+  font-size: 1.6em;
+}
+
+h4 {
+  font-size: 1.3em;
+  border-bottom: none;
 }
 
 h1 { font-weight: normal; border: none;}
@@ -36,21 +43,23 @@ ul {
   margin: 0 0 15px 17px;
 }
 
+li {
+  margin: 0 0 .5em 0;
+}
+
 .title {
   float: left;
-  width: 50%;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 .location {
   float: right;
-  width: 50%;
-  font-size: .8em;
+  font-size: 1em;
 }
 
 #container {
 	text-align: left;
-	width: 576px;
+	width: 676px;
 	margin: 0 auto;
 	padding: 5px 40px;
   background: #f9f9f9;
@@ -88,7 +97,7 @@ header {
 
 #content {
     padding: 0 0 0 40px;
-    width: 345px;
+    width: 445px;
     float: left;
     border-left: 1px solid black;
     font-size: 1.4em;
@@ -102,5 +111,13 @@ header {
   text-align: center;
   text-transform: uppercase;
   color: #666666;
+}
+
+p {
+  font-size: 1em;
+}
+
+p strong {
+  font-size: .9em;
 }
 
