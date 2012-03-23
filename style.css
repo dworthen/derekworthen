@@ -1,0 +1,168 @@
+* { padding: 0; margin: 0; }
+
+/*
+** Body - Basic Styling
+*/
+
+body { 
+	font-family: 'Lucida Sans Unicode';
+	font-size: 10px;
+	text-align: center;
+	color: #3b3b3b;
+	background: #f5f5f5;
+}
+
+.clear { clear: both; }
+
+#sidebar a.active { color: #111; }
+
+p { font-size: 1.4em; line-height: 1.5em; margin: 15px 0;}
+
+/*
+** Container
+*/
+
+#container { margin: 0px auto; width: 960px; text-align: left; }
+
+/*
+** Header
+*/
+
+#header { font-family: 'Rockwell'; float: right; width: 820px; border-bottom: 1px solid #3b3b3b; margin: 60px 0 30px 0;}
+#header h2 { text-shadow: 1px 1px 1px #ffffff; font-size: 36px; font-weight: normal;}
+
+
+/*
+** Sidebar
+*/
+
+#sidebar { float: left; width: 140px; font-size: 1.4em; padding-top: 126px;}
+
+#sidebar a { text-decoration: none; color: #666; }
+	#sidebar a:hover { color: #111; }
+
+#sidebar ul { overflow: hidden; position: relative; float: right; width: 50%;}
+	#sidebar ul li { list-style: none; padding: 4px 0px;}
+	#sidebar ul li a { display: block; outline: none; }
+	
+	
+/*
+** Content
+*/
+
+#content { float: right; width: 820px; margin-bottom: 20px;}
+
+.article-left { float: left; width: 180px; }
+.article-left img {outline: none; border: none; }
+	.article-left a img { border; none; outline: none; }
+
+.article-right { float: right; width: 640px; }
+	.article-right h1 { font-family: 'Rockwell'; text-shadow: 1px 1px 1px #ffffff; font-weight: normal; font-size: 2.24em; }
+	.article-right h1 a { text-decoration: none; color: #3b3b3b; }
+	.article-right span { font-size: 1.4em; color: #666; }
+		.article-right span a { color: #666; text-decoration: none; }
+			.article-right span a:hover { color: #111; }
+/*
+** footer
+*/
+
+#footer { font-size: 1.2em; width: 820px; float: right; border-top: 1px solid #3b3b3b; }
+
+#footer ul { overflow: hidden; position: relative; float: left; }
+	#footer ul li {list-style: none; float: left; padding: 4px 8px;}
+	#footer ul li a { display: block; color: #666; text-decoration: none; }
+		#footer ul li a:hover { color: #111; }
+
+		
+/*--------------------------------------------
+	Max width of 1200px;
+----------------------------------------------*/
+
+@media(max-width: 1200px) {
+
+	#container { width: 820px; }
+	#header { display: block; width: 100%; margin: 10px 0; border-bottom: none;}
+	#content { width: 100%; display: block }
+	#footer { width: 100%; display: block }
+	
+	#sidebar { display: block; width: 100%; padding-top: 0; margin-bottom: 10px; border-bottom: 1px solid #3b3b3b; }
+	#sidebar ul { width: 100%; float: left; position: relative;}
+		#sidebar ul li { float: left; padding: 4px 8px; }
+	
+}
+
+/*-----------------------------------------------
+	Ipad - Landscape
+-------------------------------------------------*/
+
+@media(max-width: 1024px) {
+
+	#container { width: 768px; position: relative;}
+	#header { display: block; width: 100%; margin: 8px 0; border-bottom: none; }
+	#content { display: block; width: 100%; }
+	#footer { width: 100%; display: block; }
+	
+	#sidebar { display: block; width: 100%; padding-top: 0; margin-bottom: 8px; border-bottom: 1px solid #3b3b3b; position: absolute; top: 20px; }
+	#sidebar ul { width: 50%; float: right; }
+		#sidebar ul li { float: right; padding: 4px 8px; }
+		
+	p { font-size: 1.35em; line-height: 1.4em; margin: 10px 0;}
+		
+	.article-left { width: 170px; }
+	
+	.article-right { width: 598px; }
+}
+
+/*-------------------------------------------------
+	Ipad Portrait
+---------------------------------------------------*/
+
+@media(max-width: 768px) {
+
+	#container { width: 600px; position: relative;}
+	#header { display: block; width: 100%; margin: 8px 0; border-bottom: none; }
+	#header h2 { font-size: 25px; }
+	#content { display: block; width: 100%; margin-bottom: 10px; }
+	#footer { font-size: 1em; width: 100%; display: block; }
+	
+	#sidebar { font-size: 1.2em; display: block; width: 100%; padding-top: 0; margin-bottom: 8px; border-bottom: 1px solid #3b3b3b; position: absolute; top: 15px; }
+	#sidebar ul { width: 100%; float: right; }
+		#sidebar ul li { float: right; padding: 4px 8px; }
+		
+	p { font-size: 1.2em; line-height: 1.25em; margin: 5px 0;}
+		
+	.article-left { width: 150px; }
+		.article-left img { max-width: 140px; }
+	
+	.article-right { width: 450px; }
+		.article-right h1 { font-size: 1.5em; font-weight: bold; }
+		.article-right span { font-size: 1.2em; color: #a6a6a6; }
+
+}
+
+/*---------------------------------------------------
+	Mobile
+-----------------------------------------------------*/
+
+@media(max-width: 600px) {
+
+	#container { width: 98%; position: relative;  min-width: 400px;}
+	#header { display: block; width: 100%; margin: 4px 0; border-bottom: none; }
+	#header h2 { font-size: 22px; }
+	#content { display: block; width: 100%; margin-bottom: 10px; }
+	#footer { font-size: .9em; width: 100%; display: block; }
+	
+	#sidebar { font-size: 1.1em; display: block; width: 100%; padding-top: 0; margin-bottom: 3px; border-bottom: 1px solid #3b3b3b; position: absolute; top: 10px; }
+	#sidebar ul { width: 100%; float: right; }
+		#sidebar ul li { float: right; padding: 4px 8px; }
+		
+	p { font-size: 1.1em; line-height: 1.125em; margin: 5px 0;}
+		
+	.article-left { display: none; }
+		.article-left img { max-width: 140px; }
+	
+	.article-right { width: 100%;}
+		.article-right h1 { font-size: 1.4em; font-weight: bold; }
+		.article-right span { font-size: 1.1em; color: #a6a6a6; }
+
+}
