@@ -1,5 +1,7 @@
 {
 	"name" : "cssfoundation",
 	"version" : "0.0.1",
-	"dependencies" : {}
+	"dependencies" : {
+		"connect" : ">=2.0.3"
+	}
 }
